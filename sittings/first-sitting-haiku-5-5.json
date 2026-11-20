@@ -1,0 +1,759 @@
+{
+  "format": "cbc-record/1",
+  "producer": {
+    "name": "cbc",
+    "version": "0.1.0",
+    "runner": "local"
+  },
+  "provenance": "live",
+  "started": "2026-11-20T07:13:17Z",
+  "motion": "This house believes a good question teaches more than a good answer.",
+  "motion_sentences": [
+    "This house believes a good question teaches more than a good answer."
+  ],
+  "settings": {
+    "model": "claude-haiku-5-5",
+    "effort": "medium",
+    "max_tokens": 8000,
+    "chair": "system",
+    "fallbacks": true,
+    "words": {
+      "opening": 220,
+      "rebuttal": 180,
+      "closing": 120
+    }
+  },
+  "seats": [
+    {
+      "name": "Broad",
+      "school": "the questioner",
+      "persona_sha256": "fcd20921620b113eba85d94cf9d2dbe6b65f7a9d5bc618bd17d22620c075d6ea"
+    },
+    {
+      "name": "Cicero",
+      "school": "the advocate",
+      "persona_sha256": "e4810d6a823402515881b14db1638f2aa6a23602e80b95f6324b9c60b6146a0b"
+    },
+    {
+      "name": "Omnibus",
+      "school": "the storyteller",
+      "persona_sha256": "6c8cf6c65064165d0006d61a261db3943bc8add3d2b53426685b3b185c38bdad"
+    }
+  ],
+  "speeches": [
+    {
+      "n": 1,
+      "seat": "Broad",
+      "round": "opening",
+      "model": "claude-haiku-5-5",
+      "stop_reason": "end_turn",
+      "state": "delivered",
+      "segments": [
+        {
+          "text": "Honourable members, I am Broad. I will start with the motion as it stands: ",
+          "pins": []
+        },
+        {
+          "text": "This house believes a good question teaches more than a good answer.",
+          "pins": [
+            {
+              "paper": 0,
+              "first": 0,
+              "last": 1,
+              "words": "This house believes a good question teaches more than a good answer.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " Before we weigh it, I need to know what \"teaches\" and \"good\" mean here. Is a good question one that makes the listener think, or one that leads them to the truth? Those can come apart.\n\nTake a student who asks, \"Why does a steel ship float when a steel nail sinks?\" If she gets no answer but keeps wondering about it, she has learned something. But if she is given a clear, correct explanation and remembers it, has she learned less? I do not think so. A good answer, taught well, also leaves a question behind, one the student can now press further.\n\nSo I will name my assumption plainly: that teaching happens mainly in the learner's mind, and not in what the teacher says. If that is right, the motion is partly true. If teaching means passing on what is true and useful, the motion may be too strong.\n\nI do not yet know which side I will land on. What would change my mind is a case where a learner gained more from a bare answer than from any question put to them. I have not thought of one yet, and I would like to hear one.\n\nI have two questions for the house. What does \"teaches more\" mean here: more knowledge, or a better mind? And does a question count as good only when it leads toward an answer?\n\nMy position for now: I lean toward the motion, but only for questions that open a path to the answer, not questions that leave the learner lost.",
+          "pins": []
+        }
+      ],
+      "sentences": [
+        "Honourable members, I am Broad.",
+        "I will start with the motion as it stands: This house believes a good question teaches more than a good answer.",
+        "Before we weigh it, I need to know what \"teaches\" and \"good\" mean here.",
+        "Is a good question one that makes the listener think, or one that leads them to the truth?",
+        "Those can come apart.",
+        "Take a student who asks, \"Why does a steel ship float when a steel nail sinks?\"",
+        "If she gets no answer but keeps wondering about it, she has learned something.",
+        "But if she is given a clear, correct explanation and remembers it, has she learned less?",
+        "I do not think so.",
+        "A good answer, taught well, also leaves a question behind, one the student can now press further.",
+        "So I will name my assumption plainly: that teaching happens mainly in the learner's mind, and not in what the teacher says.",
+        "If that is right, the motion is partly true.",
+        "If teaching means passing on what is true and useful, the motion may be too strong.",
+        "I do not yet know which side I will land on.",
+        "What would change my mind is a case where a learner gained more from a bare answer than from any question put to them.",
+        "I have not thought of one yet, and I would like to hear one.",
+        "I have two questions for the house.",
+        "What does \"teaches more\" mean here: more knowledge, or a better mind?",
+        "And does a question count as good only when it leads toward an answer?",
+        "My position for now: I lean toward the motion, but only for questions that open a path to the answer, not questions that leave the learner lost."
+      ],
+      "usage": {
+        "input_tokens": 209,
+        "output_tokens": 1158,
+        "thinking_tokens": 694,
+        "cache_creation_input_tokens": 2058,
+        "cache_read_input_tokens": 0
+      }
+    },
+    {
+      "n": 2,
+      "seat": "Cicero",
+      "round": "opening",
+      "model": "claude-haiku-5-5",
+      "stop_reason": "end_turn",
+      "state": "delivered",
+      "segments": [
+        {
+          "text": "Honourable members, every teacher has faced a class that nodded along and then could not explain the lesson back. This motion asks why that happens, and I stand with it.\n\nMy position: a good question teaches more than a good answer, because the question makes the learner do the work that an answer would otherwise do for them.\n\nI will show three things. First, a question is worked out by the learner, while an answer is only received. Second, a question keeps the mind open for the next question. Third, a question is remembered longer, because the learner has built the answer themselves.\n\nNow to Broad. His strongest point is this: ",
+          "pins": []
+        },
+        {
+          "text": "A good answer, taught well, also leaves a question behind, one the student can now press further.",
+          "pins": [
+            {
+              "paper": 1,
+              "first": 9,
+              "last": 10,
+              "words": "A good answer, taught well, also leaves a question behind, one the student can now press further.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " That is a fair point, and I grant it at full strength. But notice what it concedes. The answer's value lies in the question it leaves behind. That is the motion's claim, not an objection to it.\n\nI also accept the test Broad set out, that teaching happens in the learner's mind, as he put it at ",
+          "pins": []
+        },
+        {
+          "text": "teaching happens mainly in the learner's mind, and not in what the teacher says.",
+          "pins": [
+            {
+              "paper": 1,
+              "first": 10,
+              "last": 11,
+              "words": "So I will name my assumption plainly: that teaching happens mainly in the learner's mind, and not in what the teacher says.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " On that test my case stands.\n\nA good answer closes a question. A good question opens a mind.",
+          "pins": []
+        }
+      ],
+      "sentences": [
+        "Honourable members, every teacher has faced a class that nodded along and then could not explain the lesson back.",
+        "This motion asks why that happens, and I stand with it.",
+        "My position: a good question teaches more than a good answer, because the question makes the learner do the work that an answer would otherwise do for them.",
+        "I will show three things.",
+        "First, a question is worked out by the learner, while an answer is only received.",
+        "Second, a question keeps the mind open for the next question.",
+        "Third, a question is remembered longer, because the learner has built the answer themselves.",
+        "Now to Broad.",
+        "His strongest point is this: A good answer, taught well, also leaves a question behind, one the student can now press further.",
+        "That is a fair point, and I grant it at full strength.",
+        "But notice what it concedes.",
+        "The answer's value lies in the question it leaves behind.",
+        "That is the motion's claim, not an objection to it.",
+        "I also accept the test Broad set out, that teaching happens in the learner's mind, as he put it at teaching happens mainly in the learner's mind, and not in what the teacher says.",
+        "On that test my case stands.",
+        "A good answer closes a question.",
+        "A good question opens a mind."
+      ],
+      "usage": {
+        "input_tokens": 1072,
+        "output_tokens": 1358,
+        "thinking_tokens": 972,
+        "cache_creation_input_tokens": 2087,
+        "cache_read_input_tokens": 0
+      }
+    },
+    {
+      "n": 3,
+      "seat": "Omnibus",
+      "round": "opening",
+      "model": "claude-haiku-5-5",
+      "stop_reason": "end_turn",
+      "state": "delivered",
+      "segments": [
+        {
+          "text": "Honourable members, I am Omnibus, and I am delighted to be here, much as a clock is delighted to be wound.\n\nI stand with the motion, with one caution. Broad asked what \"good\" means, and I offer a picture: a good question is a door left ajar, and a good answer is a room already furnished. Both are worth visiting, but the open door invites the visitor to walk through it himself.\n\nCicero says that ",
+          "pins": []
+        },
+        {
+          "text": "a good answer closes a question. A good question opens a mind.",
+          "pins": [
+            {
+              "paper": 2,
+              "first": 15,
+              "last": 17,
+              "words": "A good answer closes a question.A good question opens a mind.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " I agree, but I would add that a good answer closes only the question that was asked. Broad has shown that ",
+          "pins": []
+        },
+        {
+          "text": "a good answer, taught well, also leaves a question behind, one the student can now press further.",
+          "pins": [
+            {
+              "paper": 1,
+              "first": 9,
+              "last": 10,
+              "words": "A good answer, taught well, also leaves a question behind, one the student can now press further.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " The best answers are questions in disguise, so the contest is narrower than it first appears.\n\nMy caution is this. A question teaches more only when the learner can walk toward its answer. Broad's own position is that ",
+          "pins": []
+        },
+        {
+          "text": "questions that open a path to the answer",
+          "pins": [
+            {
+              "paper": 1,
+              "first": 19,
+              "last": 20,
+              "words": "My position for now: I lean toward the motion, but only for questions that open a path to the answer, not questions that leave the learner lost.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " are the ones that count, and I think he is right. The Law of Polarity, which I hold as a philosophy and not as science, suggests that a question which leaves the learner lost is not the opposite of an answer but a locked room, and both lie on one spectrum of usefulness, differing only in degree.\n\nMy verdict: the motion stands, provided the question is a good one.",
+          "pins": []
+        }
+      ],
+      "sentences": [
+        "Honourable members, I am Omnibus, and I am delighted to be here, much as a clock is delighted to be wound.",
+        "I stand with the motion, with one caution.",
+        "Broad asked what \"good\" means, and I offer a picture: a good question is a door left ajar, and a good answer is a room already furnished.",
+        "Both are worth visiting, but the open door invites the visitor to walk through it himself.",
+        "Cicero says that a good answer closes a question.",
+        "A good question opens a mind.",
+        "I agree, but I would add that a good answer closes only the question that was asked.",
+        "Broad has shown that a good answer, taught well, also leaves a question behind, one the student can now press further.",
+        "The best answers are questions in disguise, so the contest is narrower than it first appears.",
+        "My caution is this.",
+        "A question teaches more only when the learner can walk toward its answer.",
+        "Broad's own position is that questions that open a path to the answer are the ones that count, and I think he is right.",
+        "The Law of Polarity, which I hold as a philosophy and not as science, suggests that a question which leaves the learner lost is not the opposite of an answer but a locked room, and both lie on one spectrum of usefulness, differing only in degree.",
+        "My verdict: the motion stands, provided the question is a good one."
+      ],
+      "usage": {
+        "input_tokens": 1792,
+        "output_tokens": 1319,
+        "thinking_tokens": 869,
+        "cache_creation_input_tokens": 3907,
+        "cache_read_input_tokens": 0
+      }
+    },
+    {
+      "n": 4,
+      "seat": "Cicero",
+      "round": "rebuttal",
+      "model": "claude-haiku-5-5",
+      "stop_reason": "end_turn",
+      "state": "delivered",
+      "segments": [
+        {
+          "text": "Honourable members, the motion asks whether a good question teaches more than a good answer. I say it does, and Omnibus has given me the ground to show it.\n\nOmnibus's strongest point is this: ",
+          "pins": []
+        },
+        {
+          "text": "The best answers are questions in disguise, so the contest is narrower than it first appears.",
+          "pins": [
+            {
+              "paper": 3,
+              "first": 8,
+              "last": 9,
+              "words": "The best answers are questions in disguise, so the contest is narrower than it first appears.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " I grant it at full strength. But it concedes what I need. If the best answers carry a question inside them, then their worth lies in the question they open, which is the motion's claim.\n\nOmnibus also says that ",
+          "pins": []
+        },
+        {
+          "text": "A question teaches more only when the learner can walk toward its answer.",
+          "pins": [
+            {
+              "paper": 3,
+              "first": 10,
+              "last": 11,
+              "words": "A question teaches more only when the learner can walk toward its answer.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " Agreed, and that is a condition on good questions, not an objection to the motion. I would not defend a question that leaves the learner lost.\n\nOn the Law of Polarity, I carry no library here and cannot vouch for it as a philosophy. The house should treat it as a claim to be checked. My case does not rest on it.\n\nOmnibus's caution that a good answer ",
+          "pins": []
+        },
+        {
+          "text": "closes only the question that was asked",
+          "pins": [
+            {
+              "paper": 3,
+              "first": 6,
+              "last": 7,
+              "words": "I agree, but I would add that a good answer closes only the question that was asked.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " is well taken, and it strengthens my position. A good answer shuts one door. A good question leaves a door open for the learner to walk through themselves, and that is why it teaches more.",
+          "pins": []
+        }
+      ],
+      "sentences": [
+        "Honourable members, the motion asks whether a good question teaches more than a good answer.",
+        "I say it does, and Omnibus has given me the ground to show it.",
+        "Omnibus's strongest point is this: The best answers are questions in disguise, so the contest is narrower than it first appears.",
+        "I grant it at full strength.",
+        "But it concedes what I need.",
+        "If the best answers carry a question inside them, then their worth lies in the question they open, which is the motion's claim.",
+        "Omnibus also says that A question teaches more only when the learner can walk toward its answer.",
+        "Agreed, and that is a condition on good questions, not an objection to the motion.",
+        "I would not defend a question that leaves the learner lost.",
+        "On the Law of Polarity, I carry no library here and cannot vouch for it as a philosophy.",
+        "The house should treat it as a claim to be checked.",
+        "My case does not rest on it.",
+        "Omnibus's caution that a good answer closes only the question that was asked is well taken, and it strengthens my position.",
+        "A good answer shuts one door.",
+        "A good question leaves a door open for the learner to walk through themselves, and that is why it teaches more."
+      ],
+      "usage": {
+        "input_tokens": 2537,
+        "output_tokens": 1583,
+        "thinking_tokens": 1179,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 2087
+      }
+    },
+    {
+      "n": 5,
+      "seat": "Omnibus",
+      "round": "rebuttal",
+      "model": "claude-haiku-5-5",
+      "stop_reason": "end_turn",
+      "state": "delivered",
+      "segments": [
+        {
+          "text": "Honourable members, Cicero has been generous, and a generous opponent deserves a careful answer. He says my strongest point concedes what he needs: ",
+          "pins": []
+        },
+        {
+          "text": "The best answers are questions in disguise, so the contest is narrower than it first appears.",
+          "pins": [
+            {
+              "paper": 4,
+              "first": 2,
+              "last": 3,
+              "words": "Omnibus's strongest point is this: The best answers are questions in disguise, so the contest is narrower than it first appears.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " I would put it differently. If the best answers are questions in disguise, then question and answer are not rivals. They are one thing seen from two sides, and the comparison becomes a matter of degree.\n\nOn my caution, he calls it ",
+          "pins": []
+        },
+        {
+          "text": "a condition on good questions, not an objection to the motion.",
+          "pins": [
+            {
+              "paper": 4,
+              "first": 7,
+              "last": 8,
+              "words": "Agreed, and that is a condition on good questions, not an objection to the motion.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " I accept that, but a path needs a destination. A question teaches only as far as the answer it points toward, so the answer is not the loser here. It is where the walk ends.\n\nCicero also says that ",
+          "pins": []
+        },
+        {
+          "text": "A good answer shuts one door. A good question leaves a door open for the learner to walk through themselves, and that is why it teaches more.",
+          "pins": [
+            {
+              "paper": 4,
+              "first": 13,
+              "last": 15,
+              "words": "A good answer shuts one door.A good question leaves a door open for the learner to walk through themselves, and that is why it teaches more.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " Yet Broad showed that a good answer also leaves a question behind, so it opens doors too.\n\nOn the Law of Polarity, ",
+          "pins": []
+        },
+        {
+          "text": "I carry no library here and cannot vouch for it as a philosophy. The house should treat it as a claim to be checked.",
+          "pins": [
+            {
+              "paper": 4,
+              "first": 9,
+              "last": 11,
+              "words": "On the Law of Polarity, I carry no library here and cannot vouch for it as a philosophy.The house should treat it as a claim to be checked.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " I agree, and I hold it as a philosophy, not a finding of science.\n\nMy verdict stands: the motion holds in its narrow form, for a good question that can be walked toward.",
+          "pins": []
+        }
+      ],
+      "sentences": [
+        "Honourable members, Cicero has been generous, and a generous opponent deserves a careful answer.",
+        "He says my strongest point concedes what he needs: The best answers are questions in disguise, so the contest is narrower than it first appears.",
+        "I would put it differently.",
+        "If the best answers are questions in disguise, then question and answer are not rivals.",
+        "They are one thing seen from two sides, and the comparison becomes a matter of degree.",
+        "On my caution, he calls it a condition on good questions, not an objection to the motion.",
+        "I accept that, but a path needs a destination.",
+        "A question teaches only as far as the answer it points toward, so the answer is not the loser here.",
+        "It is where the walk ends.",
+        "Cicero also says that A good answer shuts one door.",
+        "A good question leaves a door open for the learner to walk through themselves, and that is why it teaches more.",
+        "Yet Broad showed that a good answer also leaves a question behind, so it opens doors too.",
+        "On the Law of Polarity, I carry no library here and cannot vouch for it as a philosophy.",
+        "The house should treat it as a claim to be checked.",
+        "I agree, and I hold it as a philosophy, not a finding of science.",
+        "My verdict stands: the motion holds in its narrow form, for a good question that can be walked toward."
+      ],
+      "usage": {
+        "input_tokens": 3231,
+        "output_tokens": 1634,
+        "thinking_tokens": 1158,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 3907
+      }
+    },
+    {
+      "n": 6,
+      "seat": "Broad",
+      "round": "rebuttal",
+      "model": "claude-haiku-5-5",
+      "stop_reason": "end_turn",
+      "state": "delivered",
+      "segments": [
+        {
+          "text": "Honourable members, Omnibus has made me give up something, and I will say so. I said that questions which open a path to the answer are the ones that count. Omnibus replies: ",
+          "pins": []
+        },
+        {
+          "text": "I accept that, but a path needs a destination. A question teaches only as far as the answer it points toward, so the answer is not the loser here. It is where the walk ends.",
+          "pins": [
+            {
+              "paper": 5,
+              "first": 6,
+              "last": 9,
+              "words": "I accept that, but a path needs a destination.A question teaches only as far as the answer it points toward, so the answer is not the loser here.It is where the walk ends.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " I grant it. A question with no reachable answer teaches little, so the answer is not idle.\n\nNow to Cicero. He says ",
+          "pins": []
+        },
+        {
+          "text": "their worth lies in the question they open, which is the motion's claim.",
+          "pins": [
+            {
+              "paper": 4,
+              "first": 5,
+              "last": 6,
+              "words": "If the best answers carry a question inside them, then their worth lies in the question they open, which is the motion's claim.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " Test it on a ship's pilot. Asked where the reef lies, he is told, \"Three cables to starboard.\" That answer shuts the question. Did the pilot learn less than if he had only been left wondering? I do not think so.\n\nCicero's assumption is that the open door is what teaches. Yet he says ",
+          "pins": []
+        },
+        {
+          "text": "I would not defend a question that leaves the learner lost.",
+          "pins": [
+            {
+              "paper": 4,
+              "first": 8,
+              "last": 9,
+              "words": "I would not defend a question that leaves the learner lost.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " So an open door alone does not teach. The walk does. That cuts against his claim that ",
+          "pins": []
+        },
+        {
+          "text": "a good question leaves a door open for the learner to walk through themselves, and that is why it teaches more.",
+          "pins": [
+            {
+              "paper": 4,
+              "first": 14,
+              "last": 15,
+              "words": "A good question leaves a door open for the learner to walk through themselves, and that is why it teaches more.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": "\n\nWhat remains of my position: the motion holds only if a good question shows a path the answer cannot. I have not yet been shown one.\n\nTwo questions. Cicero: in the pilot's case, does the answer teach less, or only teach something different? Omnibus: if the answer is where the walk ends, what makes the question the better teacher rather than the answer?\n\nI now lean against the motion as worded. I would accept a narrower form: a good question teaches as much as a good answer, and more only when it leads to a path the answer does not show. What would change my mind is a case where the question teaches something no answer could. I rely on no facts here; the Law of Polarity remains a claim to be checked.",
+          "pins": []
+        }
+      ],
+      "sentences": [
+        "Honourable members, Omnibus has made me give up something, and I will say so.",
+        "I said that questions which open a path to the answer are the ones that count.",
+        "Omnibus replies: I accept that, but a path needs a destination.",
+        "A question teaches only as far as the answer it points toward, so the answer is not the loser here.",
+        "It is where the walk ends.",
+        "I grant it.",
+        "A question with no reachable answer teaches little, so the answer is not idle.",
+        "Now to Cicero.",
+        "He says their worth lies in the question they open, which is the motion's claim.",
+        "Test it on a ship's pilot.",
+        "Asked where the reef lies, he is told, \"Three cables to starboard.\"",
+        "That answer shuts the question.",
+        "Did the pilot learn less than if he had only been left wondering?",
+        "I do not think so.",
+        "Cicero's assumption is that the open door is what teaches.",
+        "Yet he says I would not defend a question that leaves the learner lost.",
+        "So an open door alone does not teach.",
+        "The walk does.",
+        "That cuts against his claim that a good question leaves a door open for the learner to walk through themselves, and that is why it teaches more.",
+        "What remains of my position: the motion holds only if a good question shows a path the answer cannot.",
+        "I have not yet been shown one.",
+        "Two questions.",
+        "Cicero: in the pilot's case, does the answer teach less, or only teach something different?",
+        "Omnibus: if the answer is where the walk ends, what makes the question the better teacher rather than the answer?",
+        "I now lean against the motion as worded.",
+        "I would accept a narrower form: a good question teaches as much as a good answer, and more only when it leads to a path the answer does not show.",
+        "What would change my mind is a case where the question teaches something no answer could.",
+        "I rely on no facts here; the Law of Polarity remains a claim to be checked."
+      ],
+      "usage": {
+        "input_tokens": 3982,
+        "output_tokens": 2393,
+        "thinking_tokens": 1766,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 2058
+      }
+    },
+    {
+      "n": 7,
+      "seat": "Omnibus",
+      "round": "closing",
+      "model": "claude-haiku-5-5",
+      "stop_reason": "end_turn",
+      "state": "delivered",
+      "segments": [
+        {
+          "text": "Honourable members, I have been moved, and I will say where. Broad has persuaded me that ",
+          "pins": []
+        },
+        {
+          "text": "A question with no reachable answer teaches little, so the answer is not idle.",
+          "pins": [
+            {
+              "paper": 6,
+              "first": 6,
+              "last": 7,
+              "words": "A question with no reachable answer teaches little, so the answer is not idle.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": "\n\nThe strongest point still against me is the pilot. ",
+          "pins": []
+        },
+        {
+          "text": "Asked where the reef lies, he is told, \"Three cables to starboard.\"",
+          "pins": [
+            {
+              "paper": 6,
+              "first": 10,
+              "last": 11,
+              "words": "Asked where the reef lies, he is told, \"Three cables to starboard.\"",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " That answer shuts the question, yet the pilot learned exactly what he needed to steer clear. A good answer can be the better teacher when the learner must act on it at once.\n\nMy verdict is that the motion fails as worded and holds in its narrow form. A good question teaches more only when it reveals a path that the answer does not show. Otherwise they teach alike. The Law of Polarity remains a philosophy I hold, not a finding, and the house should check it before relying on it.",
+          "pins": []
+        }
+      ],
+      "sentences": [
+        "Honourable members, I have been moved, and I will say where.",
+        "Broad has persuaded me that A question with no reachable answer teaches little, so the answer is not idle.",
+        "The strongest point still against me is the pilot.",
+        "Asked where the reef lies, he is told, \"Three cables to starboard.\"",
+        "That answer shuts the question, yet the pilot learned exactly what he needed to steer clear.",
+        "A good answer can be the better teacher when the learner must act on it at once.",
+        "My verdict is that the motion fails as worded and holds in its narrow form.",
+        "A good question teaches more only when it reveals a path that the answer does not show.",
+        "Otherwise they teach alike.",
+        "The Law of Polarity remains a philosophy I hold, not a finding, and the house should check it before relying on it."
+      ],
+      "usage": {
+        "input_tokens": 5078,
+        "output_tokens": 1090,
+        "thinking_tokens": 813,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 3907
+      }
+    },
+    {
+      "n": 8,
+      "seat": "Broad",
+      "round": "closing",
+      "model": "claude-haiku-5-5",
+      "stop_reason": "end_turn",
+      "state": "delivered",
+      "segments": [
+        {
+          "text": "Honourable members, Broad again, and I will be brief.\n\nOmnibus's strongest point against me is the pilot: ",
+          "pins": []
+        },
+        {
+          "text": "That answer shuts the question, yet the pilot learned exactly what he needed to steer clear.",
+          "pins": [
+            {
+              "paper": 7,
+              "first": 4,
+              "last": 5,
+              "words": "That answer shuts the question, yet the pilot learned exactly what he needed to steer clear.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " ",
+          "pins": []
+        },
+        {
+          "text": "A good answer can be the better teacher when the learner must act on it at once.",
+          "pins": [
+            {
+              "paper": 7,
+              "first": 5,
+              "last": 6,
+              "words": "A good answer can be the better teacher when the learner must act on it at once.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " I grant this. My own test asked only whether the pilot learned less, and it did not. Omnibus shows that when there is no time for a walk, the answer teaches more.\n\nWhat remains of my position is narrow. A good question teaches more only when it shows a path the answer does not, as Omnibus himself put it. I rely on no facts here, and the Law of Polarity remains a claim to be checked.\n\nMy verdict: the motion fails as worded. What would change my mind is a case where a question teaches something no answer could.",
+          "pins": []
+        }
+      ],
+      "sentences": [
+        "Honourable members, Broad again, and I will be brief.",
+        "Omnibus's strongest point against me is the pilot: That answer shuts the question, yet the pilot learned exactly what he needed to steer clear.",
+        "A good answer can be the better teacher when the learner must act on it at once.",
+        "I grant this.",
+        "My own test asked only whether the pilot learned less, and it did not.",
+        "Omnibus shows that when there is no time for a walk, the answer teaches more.",
+        "What remains of my position is narrow.",
+        "A good question teaches more only when it shows a path the answer does not, as Omnibus himself put it.",
+        "I rely on no facts here, and the Law of Polarity remains a claim to be checked.",
+        "My verdict: the motion fails as worded.",
+        "What would change my mind is a case where a question teaches something no answer could."
+      ],
+      "usage": {
+        "input_tokens": 5576,
+        "output_tokens": 1072,
+        "thinking_tokens": 784,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 2058
+      }
+    },
+    {
+      "n": 9,
+      "seat": "Cicero",
+      "round": "closing",
+      "model": "claude-haiku-5-5",
+      "stop_reason": "end_turn",
+      "state": "delivered",
+      "segments": [
+        {
+          "text": "Honourable members, the motion asks whether a good question teaches more than a good answer, and every teacher who has watched a class nod along and then fail to explain the lesson back has a stake in it.\n\nI hold my case in narrowed form. Broad and Omnibus have shown that a question teaches most when the learner has time to walk toward its answer. Omnibus's strongest point against me is the pilot: ",
+          "pins": []
+        },
+        {
+          "text": "That answer shuts the question, yet the pilot learned exactly what he needed to steer clear.",
+          "pins": [
+            {
+              "paper": 7,
+              "first": 4,
+              "last": 5,
+              "words": "That answer shuts the question, yet the pilot learned exactly what he needed to steer clear.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " I grant it. ",
+          "pins": []
+        },
+        {
+          "text": "A good answer can be the better teacher when the learner must act on it at once.",
+          "pins": [
+            {
+              "paper": 7,
+              "first": 5,
+              "last": 6,
+              "words": "A good answer can be the better teacher when the learner must act on it at once.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": "\n\nSo the motion fails as worded. A good question teaches more when there is time to walk; a good answer teaches more when the reef is near.",
+          "pins": []
+        }
+      ],
+      "sentences": [
+        "Honourable members, the motion asks whether a good question teaches more than a good answer, and every teacher who has watched a class nod along and then fail to explain the lesson back has a stake in it.",
+        "I hold my case in narrowed form.",
+        "Broad and Omnibus have shown that a question teaches most when the learner has time to walk toward its answer.",
+        "Omnibus's strongest point against me is the pilot: That answer shuts the question, yet the pilot learned exactly what he needed to steer clear.",
+        "I grant it.",
+        "A good answer can be the better teacher when the learner must act on it at once.",
+        "So the motion fails as worded.",
+        "A good question teaches more when there is time to walk; a good answer teaches more when the reef is near."
+      ],
+      "usage": {
+        "input_tokens": 6102,
+        "output_tokens": 1207,
+        "thinking_tokens": 945,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 2087
+      }
+    }
+  ]
+}

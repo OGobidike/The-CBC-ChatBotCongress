@@ -1,0 +1,40 @@
+[project]
+name = "cbc"
+version = "0.1.0"
+description = "The CBC, a Chatbot Congress: three characters debate a motion on Claude, and every sitting leaves a record."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=2.8,<3",
+    # The HTTP library under the Anthropic SDK. The command line names it to recognise a
+    # connection that fails part of the way through a streamed speech.
+    "httpx2>=2,<3",
+    "python-dotenv>=1.0",
+]
+
+[project.scripts]
+cbc = "cbc.cli:main"
+
+[dependency-groups]
+dev = [
+    # A test builds the wheel, to check that the character files ship inside it.
+    "hatchling>=1.25",
+    "pytest>=8",
+    "ruff>=0.8",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cbc"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
