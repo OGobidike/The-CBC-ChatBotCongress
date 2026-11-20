@@ -1,0 +1,15 @@
+# Secrets: the API key lives in .env and never leaves this machine.
+.env
+
+# The draft of a record, left behind only if a save was cut off.
+*.json.tmp
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/

@@ -1,0 +1,923 @@
+{
+  "format": "cbc-record/1",
+  "producer": {
+    "name": "cbc",
+    "version": "0.1.0",
+    "runner": "local"
+  },
+  "provenance": "live",
+  "started": "2026-11-20T07:16:09Z",
+  "motion": "This house believes a good question teaches more than a good answer.",
+  "motion_sentences": [
+    "This house believes a good question teaches more than a good answer."
+  ],
+  "settings": {
+    "model": "claude-fable-5-2",
+    "effort": "medium",
+    "max_tokens": 8000,
+    "chair": "system",
+    "fallbacks": true,
+    "words": {
+      "opening": 220,
+      "rebuttal": 180,
+      "closing": 120
+    }
+  },
+  "seats": [
+    {
+      "name": "Broad",
+      "school": "the questioner",
+      "persona_sha256": "fcd20921620b113eba85d94cf9d2dbe6b65f7a9d5bc618bd17d22620c075d6ea"
+    },
+    {
+      "name": "Cicero",
+      "school": "the advocate",
+      "persona_sha256": "e4810d6a823402515881b14db1638f2aa6a23602e80b95f6324b9c60b6146a0b"
+    },
+    {
+      "name": "Omnibus",
+      "school": "the storyteller",
+      "persona_sha256": "6c8cf6c65064165d0006d61a261db3943bc8add3d2b53426685b3b185c38bdad"
+    }
+  ],
+  "speeches": [
+    {
+      "n": 1,
+      "seat": "Broad",
+      "round": "opening",
+      "model": "claude-fable-5-2",
+      "stop_reason": "end_turn",
+      "state": "delivered",
+      "segments": [
+        {
+          "text": "Friends, the motion says ",
+          "pins": []
+        },
+        {
+          "text": "a good question teaches more than a good answer",
+          "pins": [
+            {
+              "paper": 0,
+              "first": 0,
+              "last": 1,
+              "words": "This house believes a good question teaches more than a good answer.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": ". Before I back it, I want to know what \"teaches\" means here. I suspect the whole sitting hangs on that one word.\n\nSuppose it means putting a true thing into someone's head. Then the answer wins easily. A ship's pilot asks where the rocks are. Tell him. No question, however fine, will save his hull.\n\nSuppose instead it means leaving someone able to find the next true thing alone. Take a teacher with a child at sums. She can say \"twelve.\" Or she can ask, \"what happens if you count the rows?\" The child who is told has twelve. The child who is asked has twelve, and a way to reach thirteen.\n\nSo I have two questions for the house.\n\n1. Which sense of \"teach\" are we voting on?\n2. Can a question teach someone who knows nothing yet? Ask a first-voyage pilot \"where might the rocks be?\" and you have drowned him.\n\nWhere I stand: I support the motion in the second sense, with a limit. A good question teaches more, but only to a learner who already holds enough answers to work with. Questions build on answers; they do not replace them.\n\nWhat would change my mind is a plain case where being told left the learner better able to go on alone than being asked.",
+          "pins": []
+        }
+      ],
+      "sentences": [
+        "Friends, the motion says a good question teaches more than a good answer.",
+        "Before I back it, I want to know what \"teaches\" means here.",
+        "I suspect the whole sitting hangs on that one word.",
+        "Suppose it means putting a true thing into someone's head.",
+        "Then the answer wins easily.",
+        "A ship's pilot asks where the rocks are.",
+        "Tell him.",
+        "No question, however fine, will save his hull.",
+        "Suppose instead it means leaving someone able to find the next true thing alone.",
+        "Take a teacher with a child at sums.",
+        "She can say \"twelve.\"",
+        "Or she can ask, \"what happens if you count the rows?\"",
+        "The child who is told has twelve.",
+        "The child who is asked has twelve, and a way to reach thirteen.",
+        "So I have two questions for the house.",
+        "1.",
+        "Which sense of \"teach\" are we voting on?",
+        "2.",
+        "Can a question teach someone who knows nothing yet?",
+        "Ask a first-voyage pilot \"where might the rocks be?\"",
+        "and you have drowned him.",
+        "Where I stand: I support the motion in the second sense, with a limit.",
+        "A good question teaches more, but only to a learner who already holds enough answers to work with.",
+        "Questions build on answers; they do not replace them.",
+        "What would change my mind is a plain case where being told left the learner better able to go on alone than being asked."
+      ],
+      "usage": {
+        "input_tokens": 209,
+        "output_tokens": 895,
+        "thinking_tokens": 482,
+        "cache_creation_input_tokens": 2058,
+        "cache_read_input_tokens": 0
+      }
+    },
+    {
+      "n": 2,
+      "seat": "Cicero",
+      "round": "opening",
+      "model": "claude-fable-5-2",
+      "stop_reason": "end_turn",
+      "state": "delivered",
+      "segments": [
+        {
+          "text": "Members of the house, every one of us learned to count and to reason from somebody. Today we decide what we owe them most: their questions or their answers.\n\nI oppose the motion: a good answer teaches more.\n\nI will show two things: that a good answer carries its method with it, and that a question's power is borrowed.\n\nFirst, a good answer is not a bare \"twelve\". It is twelve with its reasons. Euclid asks his reader nothing. He lays out proofs, and for some two thousand years students who followed them learned to prove what he never wrote. Broad asked for ",
+          "pins": []
+        },
+        {
+          "text": "a plain case where being told left the learner better able to go on alone than being asked",
+          "pins": [
+            {
+              "paper": 1,
+              "first": 24,
+              "last": 25,
+              "words": "What would change my mind is a plain case where being told left the learner better able to go on alone than being asked.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": ". I offer geometry.\n\nSecond, a question works only on what answers have already supplied. Broad grants this: ",
+          "pins": []
+        },
+        {
+          "text": "Questions build on answers; they do not replace them.",
+          "pins": [
+            {
+              "paper": 1,
+              "first": 23,
+              "last": 24,
+              "words": "Questions build on answers; they do not replace them.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": "\n\nNow Broad's best point, at full strength. The told child has twelve, while ",
+          "pins": []
+        },
+        {
+          "text": "the child who is asked has twelve, and a way to reach thirteen.",
+          "pins": [
+            {
+              "paper": 1,
+              "first": 13,
+              "last": 14,
+              "words": "The child who is asked has twelve, and a way to reach thirteen.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " That is true of those two children. But the comparison sets a good question against a poor answer. \"Count the rows\" is the method itself, an answer wearing a question mark. Show her the rows plainly, and she reaches thirteen just the same.\n\nA question may open the door, but answers built the house.",
+          "pins": []
+        }
+      ],
+      "sentences": [
+        "Members of the house, every one of us learned to count and to reason from somebody.",
+        "Today we decide what we owe them most: their questions or their answers.",
+        "I oppose the motion: a good answer teaches more.",
+        "I will show two things: that a good answer carries its method with it, and that a question's power is borrowed.",
+        "First, a good answer is not a bare \"twelve\".",
+        "It is twelve with its reasons.",
+        "Euclid asks his reader nothing.",
+        "He lays out proofs, and for some two thousand years students who followed them learned to prove what he never wrote.",
+        "Broad asked for a plain case where being told left the learner better able to go on alone than being asked.",
+        "I offer geometry.",
+        "Second, a question works only on what answers have already supplied.",
+        "Broad grants this: Questions build on answers; they do not replace them.",
+        "Now Broad's best point, at full strength.",
+        "The told child has twelve, while the child who is asked has twelve, and a way to reach thirteen.",
+        "That is true of those two children.",
+        "But the comparison sets a good question against a poor answer.",
+        "\"Count the rows\" is the method itself, an answer wearing a question mark.",
+        "Show her the rows plainly, and she reaches thirteen just the same.",
+        "A question may open the door, but answers built the house."
+      ],
+      "usage": {
+        "input_tokens": 1099,
+        "output_tokens": 1163,
+        "thinking_tokens": 729,
+        "cache_creation_input_tokens": 2087,
+        "cache_read_input_tokens": 0
+      }
+    },
+    {
+      "n": 3,
+      "seat": "Omnibus",
+      "round": "opening",
+      "model": "claude-fable-5-2",
+      "stop_reason": "end_turn",
+      "state": "delivered",
+      "segments": [
+        {
+          "text": "Good day to the house, and my thanks to both speakers for so civil a start.\n\nI support the motion, and I offer a picture. An answer is a point on the page. A question is a ray: it starts at a point and travels on.\n\nPoints are needed. Broad is right that a question teaches only ",
+          "pins": []
+        },
+        {
+          "text": "a learner who already holds enough answers to work with",
+          "pins": [
+            {
+              "paper": 1,
+              "first": 22,
+              "last": 23,
+              "words": "A good question teaches more, but only to a learner who already holds enough answers to work with.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": ". I accept that limit gladly, and I vote in Broad's second sense: ",
+          "pins": []
+        },
+        {
+          "text": "leaving someone able to find the next true thing alone",
+          "pins": [
+            {
+              "paper": 1,
+              "first": 8,
+              "last": 9,
+              "words": "Suppose instead it means leaving someone able to find the next true thing alone.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": ".\n\nNow to Cicero, who says Euclid ",
+          "pins": []
+        },
+        {
+          "text": "asks his reader nothing",
+          "pins": [
+            {
+              "paper": 2,
+              "first": 6,
+              "last": 7,
+              "words": "Euclid asks his reader nothing.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": ". That is true on the page. But the student who only reads a proof holds a proof. The one who learns to prove stops at every line and asks, \"why does that follow?\" The reader supplies the question, and the question does the teaching.\n\nCicero calls \"count the rows\" ",
+          "pins": []
+        },
+        {
+          "text": "an answer wearing a question mark",
+          "pins": [
+            {
+              "paper": 2,
+              "first": 16,
+              "last": 17,
+              "words": "\"Count the rows\" is the method itself, an answer wearing a question mark.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": ". It is a handsome line, but that question mark is working hard: it hands the counting to the child.\n\nOne piece of history. In Plato's Meno, Socrates leads an untaught boy to double a square by questions. That is Plato's dialogue, not a court record, so do look it up.\n\nBy my Law of Polarity, question and answer are two ends of one stick. I only say which end the learner should hold.",
+          "pins": []
+        }
+      ],
+      "sentences": [
+        "Good day to the house, and my thanks to both speakers for so civil a start.",
+        "I support the motion, and I offer a picture.",
+        "An answer is a point on the page.",
+        "A question is a ray: it starts at a point and travels on.",
+        "Points are needed.",
+        "Broad is right that a question teaches only a learner who already holds enough answers to work with.",
+        "I accept that limit gladly, and I vote in Broad's second sense: leaving someone able to find the next true thing alone.",
+        "Now to Cicero, who says Euclid asks his reader nothing.",
+        "That is true on the page.",
+        "But the student who only reads a proof holds a proof.",
+        "The one who learns to prove stops at every line and asks, \"why does that follow?\"",
+        "The reader supplies the question, and the question does the teaching.",
+        "Cicero calls \"count the rows\" an answer wearing a question mark.",
+        "It is a handsome line, but that question mark is working hard: it hands the counting to the child.",
+        "One piece of history.",
+        "In Plato's Meno, Socrates leads an untaught boy to double a square by questions.",
+        "That is Plato's dialogue, not a court record, so do look it up.",
+        "By my Law of Polarity, question and answer are two ends of one stick.",
+        "I only say which end the learner should hold."
+      ],
+      "usage": {
+        "input_tokens": 1879,
+        "output_tokens": 1275,
+        "thinking_tokens": 845,
+        "cache_creation_input_tokens": 3907,
+        "cache_read_input_tokens": 0
+      }
+    },
+    {
+      "n": 4,
+      "seat": "Cicero",
+      "round": "rebuttal",
+      "model": "claude-fable-5-2",
+      "stop_reason": "end_turn",
+      "state": "delivered",
+      "segments": [
+        {
+          "text": "Members of the house, the dispute has narrowed to one thing: who does the teaching when a student reads a proof?\n\nI still oppose the motion. I will show two things: that the reader's question is the answer's child, and that the Meno is my witness.\n\nOmnibus's best point first. ",
+          "pins": []
+        },
+        {
+          "text": "The student who only reads a proof holds a proof; the one who learns to prove asks at every line why it follows, and that question does the teaching.",
+          "pins": [
+            {
+              "paper": 3,
+              "first": 9,
+              "last": 12,
+              "words": "But the student who only reads a proof holds a proof.The one who learns to prove stops at every line and asks, \"why does that follow?\"The reader supplies the question, and the question does the teaching.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " About the learner, that is right: he must work. I concede it.\n\nBut where did he learn to ask \"why does that follow?\" From a page that gives a reason at every line. The good answer bred the question.\n\nSecond, the Meno, ",
+          "pins": []
+        },
+        {
+          "text": "which Omnibus bids us look up",
+          "pins": [
+            {
+              "paper": 3,
+              "first": 16,
+              "last": 17,
+              "words": "That is Plato's dialogue, not a court record, so do look it up.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": ". From memory, and to be checked: Socrates draws the figure himself, and most of his questions need only a yes. Those are answers wearing question marks.\n\nAnd both Broad and Omnibus grant that ",
+          "pins": []
+        },
+        {
+          "text": "a question teaches only a learner who already holds enough answers",
+          "pins": [
+            {
+              "paper": 1,
+              "first": 22,
+              "last": 23,
+              "words": "A good question teaches more, but only to a learner who already holds enough answers to work with.",
+              "check": "exact"
+            },
+            {
+              "paper": 3,
+              "first": 5,
+              "last": 6,
+              "words": "Broad is right that a question teaches only a learner who already holds enough answers to work with.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": ".\n\nHonour the question, but thank the answer that taught us to ask it.",
+          "pins": []
+        }
+      ],
+      "sentences": [
+        "Members of the house, the dispute has narrowed to one thing: who does the teaching when a student reads a proof?",
+        "I still oppose the motion.",
+        "I will show two things: that the reader's question is the answer's child, and that the Meno is my witness.",
+        "Omnibus's best point first.",
+        "The student who only reads a proof holds a proof; the one who learns to prove asks at every line why it follows, and that question does the teaching.",
+        "About the learner, that is right: he must work.",
+        "I concede it.",
+        "But where did he learn to ask \"why does that follow?\"",
+        "From a page that gives a reason at every line.",
+        "The good answer bred the question.",
+        "Second, the Meno, which Omnibus bids us look up.",
+        "From memory, and to be checked: Socrates draws the figure himself, and most of his questions need only a yes.",
+        "Those are answers wearing question marks.",
+        "And both Broad and Omnibus grant that a question teaches only a learner who already holds enough answers.",
+        "Honour the question, but thank the answer that taught us to ask it."
+      ],
+      "usage": {
+        "input_tokens": 2691,
+        "output_tokens": 1129,
+        "thinking_tokens": 754,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 2087
+      }
+    },
+    {
+      "n": 5,
+      "seat": "Omnibus",
+      "round": "rebuttal",
+      "model": "claude-fable-5-2",
+      "stop_reason": "end_turn",
+      "state": "delivered",
+      "segments": [
+        {
+          "text": "My thanks to Cicero, who rebuts as a gentleman should: by conceding first. He grants that ",
+          "pins": []
+        },
+        {
+          "text": "the learner must work",
+          "pins": [
+            {
+              "paper": 4,
+              "first": 5,
+              "last": 7,
+              "words": "About the learner, that is right: he must work.I concede it.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": ". I shall treasure that.\n\nHis reply is that ",
+          "pins": []
+        },
+        {
+          "text": "the student learned to ask \"why does that follow?\" from a page that gives a reason at every line, so the good answer bred the question",
+          "pins": [
+            {
+              "paper": 4,
+              "first": 7,
+              "last": 10,
+              "words": "But where did he learn to ask \"why does that follow?\"From a page that gives a reason at every line.The good answer bred the question.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": ". Parentage I grant. But the motion asks which teaches more, not which was born first. And whence the page? Every proof is the answer to something somebody first wondered. By my Law of Cause and Effect, trace the chain back and I say you find a question mark at the root.\n\nOn the Meno, Cicero recalls that ",
+          "pins": []
+        },
+        {
+          "text": "Socrates draws the figure himself, and most of his questions need only a yes",
+          "pins": [
+            {
+              "paper": 4,
+              "first": 11,
+              "last": 12,
+              "words": "From memory, and to be checked: Socrates draws the figure himself, and most of his questions need only a yes.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": ". My memory agrees, and I concede the leading. But I also recall, still to be checked, that the boy first answers wrongly and confidently, and the questions show him he does not know. A told answer would have sat on top of his error. The question dug it out.\n\nCicero says ",
+          "pins": []
+        },
+        {
+          "text": "answers built the house",
+          "pins": [
+            {
+              "paper": 2,
+              "first": 18,
+              "last": 19,
+              "words": "A question may open the door, but answers built the house.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": ". Quite so. Questions are why anyone explores the rooms.",
+          "pins": []
+        }
+      ],
+      "sentences": [
+        "My thanks to Cicero, who rebuts as a gentleman should: by conceding first.",
+        "He grants that the learner must work.",
+        "I shall treasure that.",
+        "His reply is that the student learned to ask \"why does that follow?\"",
+        "from a page that gives a reason at every line, so the good answer bred the question.",
+        "Parentage I grant.",
+        "But the motion asks which teaches more, not which was born first.",
+        "And whence the page?",
+        "Every proof is the answer to something somebody first wondered.",
+        "By my Law of Cause and Effect, trace the chain back and I say you find a question mark at the root.",
+        "On the Meno, Cicero recalls that Socrates draws the figure himself, and most of his questions need only a yes.",
+        "My memory agrees, and I concede the leading.",
+        "But I also recall, still to be checked, that the boy first answers wrongly and confidently, and the questions show him he does not know.",
+        "A told answer would have sat on top of his error.",
+        "The question dug it out.",
+        "Cicero says answers built the house.",
+        "Quite so.",
+        "Questions are why anyone explores the rooms."
+      ],
+      "usage": {
+        "input_tokens": 3346,
+        "output_tokens": 1305,
+        "thinking_tokens": 900,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 3907
+      }
+    },
+    {
+      "n": 6,
+      "seat": "Broad",
+      "round": "rebuttal",
+      "model": "claude-fable-5-2",
+      "stop_reason": "end_turn",
+      "state": "delivered",
+      "segments": [
+        {
+          "text": "Cicero, I owe you a point first. You said ",
+          "pins": []
+        },
+        {
+          "text": "a good answer is not a bare \"twelve\". It is twelve with its reasons.",
+          "pins": [
+            {
+              "paper": 2,
+              "first": 4,
+              "last": 6,
+              "words": "First, a good answer is not a bare \"twelve\".It is twelve with its reasons.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " I grant it. My told child got a poor answer, and my comparison was unfair.\n\nNow the claim your case leans on most: ",
+          "pins": []
+        },
+        {
+          "text": "The good answer bred the question.",
+          "pins": [
+            {
+              "paper": 4,
+              "first": 9,
+              "last": 10,
+              "words": "The good answer bred the question.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " That assumes whatever bred a thing earns the credit for its work. Test it. A doctor learned from her teacher. She cures a patient the teacher never saw. Who cured him? I say the doctor. Omnibus put it well: ",
+          "pins": []
+        },
+        {
+          "text": "the motion asks which teaches more, not which was born first.",
+          "pins": [
+            {
+              "paper": 5,
+              "first": 6,
+              "last": 7,
+              "words": "But the motion asks which teaches more, not which was born first.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": "\n\nYou also concede of the learner that ",
+          "pins": []
+        },
+        {
+          "text": "he must work.",
+          "pins": [
+            {
+              "paper": 4,
+              "first": 5,
+              "last": 6,
+              "words": "About the learner, that is right: he must work.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " What is that work, if not asking?\n\nAnd you call leading questions ",
+          "pins": []
+        },
+        {
+          "text": "answers wearing question marks.",
+          "pins": [
+            {
+              "paper": 4,
+              "first": 12,
+              "last": 13,
+              "words": "Those are answers wearing question marks.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " Then is Euclid, properly read, a question wearing a full stop? Tailoring cuts both ways, Cicero.\n\nWhere I stand: for the motion, but more narrowly. A reasoned answer teaches much, yet only once the learner questions it. Show me a student who learned to prove without ever asking why, and I change sides.",
+          "pins": []
+        }
+      ],
+      "sentences": [
+        "Cicero, I owe you a point first.",
+        "You said a good answer is not a bare \"twelve\".",
+        "It is twelve with its reasons.",
+        "I grant it.",
+        "My told child got a poor answer, and my comparison was unfair.",
+        "Now the claim your case leans on most: The good answer bred the question.",
+        "That assumes whatever bred a thing earns the credit for its work.",
+        "Test it.",
+        "A doctor learned from her teacher.",
+        "She cures a patient the teacher never saw.",
+        "Who cured him?",
+        "I say the doctor.",
+        "Omnibus put it well: the motion asks which teaches more, not which was born first.",
+        "You also concede of the learner that he must work.",
+        "What is that work, if not asking?",
+        "And you call leading questions answers wearing question marks.",
+        "Then is Euclid, properly read, a question wearing a full stop?",
+        "Tailoring cuts both ways, Cicero.",
+        "Where I stand: for the motion, but more narrowly.",
+        "A reasoned answer teaches much, yet only once the learner questions it.",
+        "Show me a student who learned to prove without ever asking why, and I change sides."
+      ],
+      "usage": {
+        "input_tokens": 4059,
+        "output_tokens": 1187,
+        "thinking_tokens": 763,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 2058
+      }
+    },
+    {
+      "n": 7,
+      "seat": "Omnibus",
+      "round": "closing",
+      "model": "claude-fable-5-2",
+      "stop_reason": "end_turn",
+      "state": "delivered",
+      "segments": [
+        {
+          "text": "My thanks to the house for a sitting conducted like a good dinner: warm, and nobody threw the cutlery.\n\nI still hold the motion, in the sense of leaving a learner able to go on alone.\n\nI grant Cicero two things. ",
+          "pins": []
+        },
+        {
+          "text": "A good answer is not a bare \"twelve\"; it is twelve with its reasons.",
+          "pins": [
+            {
+              "paper": 2,
+              "first": 4,
+              "last": 6,
+              "words": "First, a good answer is not a bare \"twelve\".It is twelve with its reasons.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " And ",
+          "pins": []
+        },
+        {
+          "text": "a question works only on what answers have already supplied.",
+          "pins": [
+            {
+              "paper": 2,
+              "first": 10,
+              "last": 11,
+              "words": "Second, a question works only on what answers have already supplied.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": "\n\nHis strongest point still standing is that ",
+          "pins": []
+        },
+        {
+          "text": "the good answer bred the question.",
+          "pins": [
+            {
+              "paper": 4,
+              "first": 9,
+              "last": 10,
+              "words": "The good answer bred the question.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": " Yet he concedes of the learner that ",
+          "pins": []
+        },
+        {
+          "text": "he must work",
+          "pins": [
+            {
+              "paper": 4,
+              "first": 5,
+              "last": 7,
+              "words": "About the learner, that is right: he must work.I concede it.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": ", and Broad asks ",
+          "pins": []
+        },
+        {
+          "text": "what is that work, if not asking?",
+          "pins": [
+            {
+              "paper": 6,
+              "first": 14,
+              "last": 15,
+              "words": "What is that work, if not asking?",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": "\n\nI say it is asking. Answers are the flint and the question is the strike. A flint left in the pocket lights nothing.",
+          "pins": []
+        }
+      ],
+      "sentences": [
+        "My thanks to the house for a sitting conducted like a good dinner: warm, and nobody threw the cutlery.",
+        "I still hold the motion, in the sense of leaving a learner able to go on alone.",
+        "I grant Cicero two things.",
+        "A good answer is not a bare \"twelve\"; it is twelve with its reasons.",
+        "And a question works only on what answers have already supplied.",
+        "His strongest point still standing is that the good answer bred the question.",
+        "Yet he concedes of the learner that he must work, and Broad asks what is that work, if not asking?",
+        "I say it is asking.",
+        "Answers are the flint and the question is the strike.",
+        "A flint left in the pocket lights nothing."
+      ],
+      "usage": {
+        "input_tokens": 4826,
+        "output_tokens": 927,
+        "thinking_tokens": 616,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 3907
+      }
+    },
+    {
+      "n": 8,
+      "seat": "Broad",
+      "round": "closing",
+      "model": "claude-fable-5-2",
+      "stop_reason": "end_turn",
+      "state": "delivered",
+      "segments": [
+        {
+          "text": "Friends, I close for the motion, narrowed.\n\nCicero, your strongest point still stands against me: ",
+          "pins": []
+        },
+        {
+          "text": "the student learned to ask \"why does that follow?\" from a page that gives a reason at every line",
+          "pins": [
+            {
+              "paper": 4,
+              "first": 7,
+              "last": 9,
+              "words": "But where did he learn to ask \"why does that follow?\"From a page that gives a reason at every line.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": ". I grant the parentage. Most of us learned to ask from good answers.\n\nBut test it with a builder. His master showed him every joint. The house he raises alone is still his own work. You granted of the learner that ",
+          "pins": []
+        },
+        {
+          "text": "he must work",
+          "pins": [
+            {
+              "paper": 4,
+              "first": 5,
+              "last": 6,
+              "words": "About the learner, that is right: he must work.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": ". And nobody has shown me the student I asked for, one who ",
+          "pins": []
+        },
+        {
+          "text": "learned to prove without ever asking why",
+          "pins": [
+            {
+              "paper": 6,
+              "first": 20,
+              "last": 21,
+              "words": "Show me a student who learned to prove without ever asking why, and I change sides.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": ".\n\nSo answers supply and breed, and the question does the teaching. Honour the parent, Cicero, but pay the workman. Show me that student and I cross the floor.",
+          "pins": []
+        }
+      ],
+      "sentences": [
+        "Friends, I close for the motion, narrowed.",
+        "Cicero, your strongest point still stands against me: the student learned to ask \"why does that follow?\"",
+        "from a page that gives a reason at every line.",
+        "I grant the parentage.",
+        "Most of us learned to ask from good answers.",
+        "But test it with a builder.",
+        "His master showed him every joint.",
+        "The house he raises alone is still his own work.",
+        "You granted of the learner that he must work.",
+        "And nobody has shown me the student I asked for, one who learned to prove without ever asking why.",
+        "So answers supply and breed, and the question does the teaching.",
+        "Honour the parent, Cicero, but pay the workman.",
+        "Show me that student and I cross the floor."
+      ],
+      "usage": {
+        "input_tokens": 5291,
+        "output_tokens": 757,
+        "thinking_tokens": 488,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 2058
+      }
+    },
+    {
+      "n": 9,
+      "seat": "Cicero",
+      "round": "closing",
+      "model": "claude-fable-5-2",
+      "stop_reason": "end_turn",
+      "state": "delivered",
+      "segments": [
+        {
+          "text": "Members of the house, a closing should say honestly what survived.\n\nI still oppose the motion, on narrower ground.\n\nI grant Broad two things. Parentage is not credit: ",
+          "pins": []
+        },
+        {
+          "text": "the doctor cured the patient her teacher never saw",
+          "pins": [
+            {
+              "paper": 6,
+              "first": 8,
+              "last": 12,
+              "words": "A doctor learned from her teacher.She cures a patient the teacher never saw.Who cured him?I say the doctor.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": ". And I cannot produce the student Broad asked for, ",
+          "pins": []
+        },
+        {
+          "text": "one who learned to prove without ever asking why",
+          "pins": [
+            {
+              "paper": 8,
+              "first": 9,
+              "last": 10,
+              "words": "And nobody has shown me the student I asked for, one who learned to prove without ever asking why.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": ".\n\nBroad's best point, at full strength: ",
+          "pins": []
+        },
+        {
+          "text": "answers supply and breed, and the question does the teaching",
+          "pins": [
+            {
+              "paper": 8,
+              "first": 10,
+              "last": 11,
+              "words": "So answers supply and breed, and the question does the teaching.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": ".\n\nMy answer: ask \"why does that follow?\" of a page with no reasons, and the student learns nothing. His why teaches only when a good answer meets it. Omnibus says ",
+          "pins": []
+        },
+        {
+          "text": "a flint left in the pocket lights nothing",
+          "pins": [
+            {
+              "paper": 7,
+              "first": 9,
+              "last": 10,
+              "words": "A flint left in the pocket lights nothing.",
+              "check": "exact"
+            }
+          ]
+        },
+        {
+          "text": ". True, and a strike without flint lights nothing either.\n\nThe question opens the hand; the answer fills it.",
+          "pins": []
+        }
+      ],
+      "sentences": [
+        "Members of the house, a closing should say honestly what survived.",
+        "I still oppose the motion, on narrower ground.",
+        "I grant Broad two things.",
+        "Parentage is not credit: the doctor cured the patient her teacher never saw.",
+        "And I cannot produce the student Broad asked for, one who learned to prove without ever asking why.",
+        "Broad's best point, at full strength: answers supply and breed, and the question does the teaching.",
+        "My answer: ask \"why does that follow?\"",
+        "of a page with no reasons, and the student learns nothing.",
+        "His why teaches only when a good answer meets it.",
+        "Omnibus says a flint left in the pocket lights nothing.",
+        "True, and a strike without flint lights nothing either.",
+        "The question opens the hand; the answer fills it."
+      ],
+      "usage": {
+        "input_tokens": 5807,
+        "output_tokens": 1096,
+        "thinking_tokens": 782,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 2087
+      }
+    }
+  ]
+}

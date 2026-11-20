@@ -1,0 +1,277 @@
+{
+  "note": "STAND-IN SCRIPT. These speeches are a script written to test the chamber. No sitting produced any of this.",
+  "motion": "This house would rather be told a hard truth than a kind story.",
+  "speeches": [
+    {
+      "seat": "Broad",
+      "round": "opening",
+      "segments": [
+        {
+          "text": "Before we choose between a hard truth and a kind story, I should like to know what we are choosing.",
+          "pins": [
+            {
+              "paper": "The motion",
+              "anchor": "hard truth",
+              "sentences": 1
+            }
+          ]
+        },
+        {
+          "text": " Is a kind story a false one? If it is false, we are asked whether we would rather be deceived. If it is true, then it is a truth told kindly, and the motion gives us nothing to choose between. So I ask the house one question, and I will hold my friends to it: who decides which truths are hard?",
+          "pins": []
+        }
+      ]
+    },
+    {
+      "seat": "Cicero",
+      "round": "opening",
+      "segments": [
+        {
+          "text": "I will build the case in order. First, the question my friend has put: ",
+          "pins": []
+        },
+        {
+          "text": "he asks who decides which truths are hard.",
+          "pins": [
+            {
+              "paper": "Speech 1: Broad, opening",
+              "anchor": "who decides",
+              "sentences": 1
+            }
+          ]
+        },
+        {
+          "text": " It is the best question against me, so I meet it before I begin. The listener decides, because the listener is the one who must live with the truth afterwards.\n\nSecond, a house that is told only kind stories cannot govern itself, for it does not know what is wrong. Third, trust: one kind story, once found out, makes every later truth sound like another story. I ask the house to support the motion.",
+          "pins": []
+        }
+      ]
+    },
+    {
+      "seat": "Omnibus",
+      "round": "opening",
+      "segments": [
+        {
+          "text": "A tale, and I mark it as a tale, for I made it up. A ship's cook told the crew the biscuit would last, because he wished to be kind. It lasted nine days of a twelve-day crossing. Now the sum, which is no tale: twelve days less nine days leaves three days with nothing. ",
+          "pins": []
+        },
+        {
+          "text": "Cicero says the listener must live with the truth afterwards.",
+          "pins": [
+            {
+              "paper": "Speech 2: Cicero, opening",
+              "anchor": "must live with",
+              "sentences": 1
+            }
+          ]
+        },
+        {
+          "text": " My cook's crew would agree with him. But ",
+          "pins": []
+        },
+        {
+          "text": "Broad asked whether a kind story is a false one,",
+          "pins": [
+            {
+              "paper": "Speech 1: Broad, opening",
+              "anchor": "Is a kind story a false one?",
+              "sentences": 1
+            }
+          ]
+        },
+        {
+          "text": " and my tale only works if it is.",
+          "pins": []
+        }
+      ]
+    },
+    {
+      "seat": "Cicero",
+      "round": "rebuttal",
+      "segments": [
+        {
+          "text": "Omnibus grants that his tale only works if the kind story is a false one.",
+          "pins": [
+            {
+              "paper": "Speech 3: Omnibus, opening",
+              "anchor": "my tale only works",
+              "sentences": 1
+            }
+          ]
+        },
+        {
+          "text": " Then his cook did not tell a kind story. He told a lie, and the crew paid for it with three hungry days. ",
+          "pins": []
+        },
+        {
+          "text": "The figures are his own: nine days of biscuit for a crossing of twelve.",
+          "pins": [
+            {
+              "paper": "Speech 3: Omnibus, opening",
+              "anchor": "Now the sum",
+              "sentences": 1
+            },
+            {
+              "paper": "Speech 3: Omnibus, opening",
+              "anchor": "It lasted nine days",
+              "sentences": 1
+            }
+          ]
+        },
+        {
+          "text": " Broad's question still stands against me, and I will meet it again in my closing. For now I say only this: a cook who had spoken on the first morning would have cost the crew nothing but comfort.",
+          "pins": []
+        }
+      ]
+    },
+    {
+      "seat": "Omnibus",
+      "round": "rebuttal",
+      "segments": [
+        {
+          "text": "Cicero says my cook told a lie.",
+          "pins": [
+            {
+              "paper": "Speech 4: Cicero, rebuttal",
+              "anchor": "He told a lie",
+              "sentences": 1
+            }
+          ]
+        },
+        {
+          "text": " A fair hit, and I will not pretend otherwise. So here is a kind story that is also true: a physician may tell a patient the odds, and may also tell him, truthfully, of those who beat them. Both sentences are true. Only the first is hard. ",
+          "pins": []
+        },
+        {
+          "text": "Broad said that a truth told kindly leaves the motion nothing to choose between.",
+          "pins": [
+            {
+              "paper": "Speech 1: Broad, opening",
+              "anchor": "If it is true",
+              "sentences": 1
+            }
+          ]
+        },
+        {
+          "text": " I think it leaves us the whole question: which truth to tell first.",
+          "pins": []
+        }
+      ]
+    },
+    {
+      "seat": "Broad",
+      "round": "rebuttal",
+      "segments": [
+        {
+          "text": "Cicero says that the listener decides which truths are hard.",
+          "pins": [
+            {
+              "paper": "Speech 2: Cicero, opening",
+              "anchor": "The listener decides",
+              "sentences": 1
+            }
+          ]
+        },
+        {
+          "text": " Then let us test it. Can the listener decide that a truth is hard before hearing it? If he cannot, someone else has decided for him, and that someone is the teller. ",
+          "pins": []
+        },
+        {
+          "text": "Omnibus has shown us a teller doing exactly that: of two true sentences, his physician chooses which to say first.",
+          "pins": [
+            {
+              "paper": "Speech 5: Omnibus, rebuttal",
+              "anchor": "Both sentences are true.",
+              "sentences": 2
+            }
+          ]
+        },
+        {
+          "text": " So both my friends have defended a different motion: that we would rather not be lied to. I agree with that motion. It is not the one before us.",
+          "pins": []
+        }
+      ]
+    },
+    {
+      "seat": "Omnibus",
+      "round": "closing",
+      "segments": [
+        {
+          "text": "Three days of hunger, one question from Broad and one hit from Cicero: a full evening. ",
+          "pins": []
+        },
+        {
+          "text": "Broad says we have defended a different motion.",
+          "pins": [
+            {
+              "paper": "Speech 6: Broad, rebuttal",
+              "anchor": "So both my friends",
+              "sentences": 1
+            }
+          ]
+        },
+        {
+          "text": " Perhaps we have. ",
+          "pins": []
+        },
+        {
+          "text": "I began by marking my tale as a tale,",
+          "pins": [
+            {
+              "paper": "Speech 3: Omnibus, opening",
+              "anchor": "A tale, and I mark it",
+              "sentences": 1
+            }
+          ]
+        },
+        {
+          "text": " and I end the same way: the cook is invented, the sum is not, and I would still rather be told on the first morning.",
+          "pins": []
+        }
+      ]
+    },
+    {
+      "seat": "Broad",
+      "round": "closing",
+      "segments": [
+        {
+          "text": "We began with a motion and we end with a better question. Nobody here prefers a kind lie, and nobody here prefers a cruel truth. I would rather be told the truth by someone who has thought about how to tell it.",
+          "pins": []
+        }
+      ]
+    },
+    {
+      "seat": "Cicero",
+      "round": "closing",
+      "segments": [
+        {
+          "text": "Broad says nobody here prefers a kind lie.",
+          "pins": [
+            {
+              "paper": "Speech 8: Broad, closing",
+              "anchor": "Nobody here prefers",
+              "sentences": 1
+            }
+          ]
+        },
+        {
+          "text": " Then the house is agreed on the motion, whatever it thinks of the wording. ",
+          "pins": []
+        },
+        {
+          "text": "His strongest point still stands: the listener cannot judge a truth he has not yet heard, so the teller decides.",
+          "pins": [
+            {
+              "paper": "Speech 6: Broad, rebuttal",
+              "anchor": "Can the listener decide",
+              "sentences": 2
+            }
+          ]
+        },
+        {
+          "text": " I grant it. The teller chooses the moment and the words. But that is a rule for how to tell a hard truth, and no reason to withhold one. Tell it early, tell it plainly, tell it well.",
+          "pins": []
+        }
+      ]
+    }
+  ]
+}
